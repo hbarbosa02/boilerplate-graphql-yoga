@@ -1,0 +1,5 @@
+type Mutation {
+  forgotPassword(email: String!): String!
+
+  resetPassword(code: String!, oldPassword: String!, password: String!): String!
+}

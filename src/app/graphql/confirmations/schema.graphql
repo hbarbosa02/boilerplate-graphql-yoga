@@ -1,0 +1,5 @@
+type Mutation {
+  forgotConfirmation(email: String!): String!
+
+  resetConfirmation(code: String!): String!
+}
